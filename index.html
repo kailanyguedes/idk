@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kailany Guedes | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #0d0d0d, #1a1a1a);
+      color: #f2f2f2;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 3rem 2rem;
+      text-align: center;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00bfff;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      color: #ccc;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #121212;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #ccc;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bfff;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #00bfff;
+      border-left: 4px solid #00bfff;
+      padding-left: 1rem;
+    }
+
+    ul, p {
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+
+    .icon {
+      color: #00bfff;
+      margin-right: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #0d0d0d;
+      font-size: 0.9rem;
+      color: #888;
+      border-top: 1px solid #333;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      color: #f2f2f2;
+      border-radius: 8px;
+    }
+
+    form button {
+      padding: 1rem 2rem;
+      background-color: #00bfff;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    form button:hover {
+      background-color: #009fd4;
+    }
+
+    .animate {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s ease-out;
+    }
+
+    .animate.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="animate">
+    <h1>Kailany Guedes</h1>
+    <div class="photo-wrapper">
+        <span class="circle"></span>
+        <img src="kailany.jpg" alt="Foto de Kailany Guedes" class="profile-photo">
+      </div>      
+    <p>Estudante de Análise e Desenvolvimento de Sistemas | Apaixonada por tecnologia e inovação</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#formacao">Formação</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre" class="animate">
+    <h2><i class="fas fa-user icon"></i>Sobre Mim</h2>
+    <p>
+      Meu nome é Kailany Guedes de Sousa, atualmente cursando o 3º semestre de Análise e Desenvolvimento de Sistemas na UNIFANOR Wyden. Sou uma profissional dedicada, curiosa e em constante evolução. Tenho experiência no setor administrativo, mas estou focada em entrar no mercado de TI com entusiasmo. Gosto de aprender, tenho boa comunicação e organização, e estou sempre me desafiando.
+    </p>
+  </section>
+
+  <section id="habilidades" class="animate">
+    <h2><i class="fas fa-laptop-code icon"></i>Habilidades Técnicas</h2>
+    <ul>
+      <li>Python (com projetos práticos e criação de sites)</li>
+      <li>HTML, CSS e estrutura de sites</li>
+      <li>Iniciando em SQL</li>
+      <li>Git e GitHub</li>
+      <li>Pacote Office completo (Word, Excel, PowerPoint)</li>
+      <li>Comunicação, organização e facilidade em aprender</li>
+    </ul>
+  </section>
+
+  <section id="formacao" class="animate">
+    <h2><i class="fas fa-graduation-cap icon"></i>Formação</h2>
+    <ul>
+      <li>UNIFANOR Wyden – Análise e Desenvolvimento de Sistemas (3º semestre)</li>
+      <li>Escola José Bezerra de Menezes – Ensino Médio</li>
+    </ul>
+  </section>
+
+  <section id="experiencia" class="animate">
+    <h2><i class="fas fa-briefcase icon"></i>Experiência Profissional</h2>
+    <p>
+      <strong>Auxiliar de Escritório – Casa Pio (1 ano e 6 meses)</strong><br>
+      Atuação em cobrança, contato com clientes, envio de boletos, organização de metas e relatórios no Excel, acordos de pagamento, criação de planilhas, participação e liderança em grupos de competitividade.
+    </p>
+  </section>
+
+  <section id="contato" class="animate">
+    <h2><i class="fas fa-envelope icon"></i>Contato</h2>
+    <form action="https://formsubmit.co/kailany123hot@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p><strong>Email:</strong> kailany123hot@gmail.com</p>
+    <p><strong>Telefone:</strong> (85) 99966-6153</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/kailanyguedes" target="_blank">github.com/kailanyguedes</a></p>
+  </section>
+
+  <footer>
+    © 2025 Kailany Guedes de Sousa. Todos os direitos reservados.
+  </footer>
+
+  <script>
+    const animatedSections = document.querySelectorAll('.animate');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    animatedSections.forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+  <link rel="stylesheet" href="style.css">
+
+</body>
+
+</html>
