@@ -2,6 +2,16 @@
 <html lang="pt-BR">
 
 <head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio de Kailany</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kailany Guedes | Portfólio</title>
@@ -144,15 +154,18 @@
     }
   </style>
 </head>
-
 <body>
   <header class="animate">
-    <h1>Kailany Guedes</h1>
+    <h1 class="nome-animado">Kailany Guedes</h1>
     <div class="photo-wrapper">
         <span class="circle"></span>
         <img src="kailany.jpg" alt="Foto de Kailany Guedes" class="profile-photo">
-      </div>      
-    <p>Estudante de Análise e Desenvolvimento de Sistemas | Apaixonada por tecnologia e inovação</p>
+      </div> 
+      <h2 class="titulo-animado">
+        <span id="typed-text"></span>
+      </h2>
+           
+  
   </header>
 
   <nav>
@@ -164,52 +177,102 @@
   </nav>
 
   <section id="sobre" class="animate">
+    <section class="info-box">
     <h2><i class="fas fa-user icon"></i>Sobre Mim</h2>
     <p>
-      Meu nome é Kailany Guedes de Sousa, atualmente cursando o 3º semestre de Análise e Desenvolvimento de Sistemas na UNIFANOR Wyden. Sou uma profissional dedicada, curiosa e em constante evolução. Tenho experiência no setor administrativo, mas estou focada em entrar no mercado de TI com entusiasmo. Gosto de aprender, tenho boa comunicação e organização, e estou sempre me desafiando.
+      Meu nome é Kailany Guedes de Sousa, estou atualmente no 3º semestre do curso de Análise e Desenvolvimento de Sistemas pela UNIFANOR Wyden. Sou uma profissional dedicada, curiosa e em constante evolução.
+
+      Embora tenha experiência no setor administrativo, estou determinada a ingressar na área de Tecnologia da Informação, especialmente nas áreas de Suporte Técnico ou Desenvolvimento. Quero aplicar meus conhecimentos em redes, manutenção de computadores — tanto em hardware quanto software — além de programar em Python e Java, contribuindo com soluções funcionais e eficientes.
+      
+      Gosto de aprender, tenho boa comunicação, sou organizada e estou sempre me desafiando. Busco crescer profissionalmente ao lado de pessoas experientes, trocando conhecimentos e aprimorando minhas habilidades dia após dia.
+    </section>
     </p>
   </section>
+  
 
   <section id="habilidades" class="animate">
-    <h2><i class="fas fa-laptop-code icon"></i>Habilidades Técnicas</h2>
-    <ul>
+    <section class="info-box"> <h2><i class="fas fa-laptop-code icon"></i>Habilidades Técnicas</h2>
+    <ul> 
+     
       <li>Python (com projetos práticos e criação de sites)</li>
       <li>HTML, CSS e estrutura de sites</li>
       <li>Iniciando em SQL</li>
       <li>Git e GitHub</li>
       <li>Pacote Office completo (Word, Excel, PowerPoint)</li>
       <li>Comunicação, organização e facilidade em aprender</li>
+      <li>Java</li>
+      <li>Redes ( Noções básicas de redes locais, cabeamento, configuração de roteadores, IP e conectividade.)</li>
+      <li>Manutenção de Computadores (Diagnóstico e solução de problemas em hardware e software, formatação, limpeza preventiva e corretiva, substituição de peças, instalação de drivers, sistemas operacionais e programas).</li>
+    </section>
     </ul>
   </section>
+  <div class="caixa-tech">
+    <div class="icone">
+      <i class="fas fa-code"></i>
+    </div>
+    Oii. aqui é a Kailany Guedes, gosto de tecnologia, manutençao, infraestrutura e programação. Busco constantemente desafios e oportunidades de aprendizado para evoluir no campo da tecnologia.
+  </div>
 
   <section id="formacao" class="animate">
-    <h2><i class="fas fa-graduation-cap icon"></i>Formação</h2>
+    <section class="info-box"> <h2><i class="fas fa-graduation-cap icon"></i>Formação</h2>
     <ul>
       <li>UNIFANOR Wyden – Análise e Desenvolvimento de Sistemas (3º semestre)</li>
       <li>Escola José Bezerra de Menezes – Ensino Médio</li>
+    </section>
     </ul>
   </section>
 
   <section id="experiencia" class="animate">
-    <h2><i class="fas fa-briefcase icon"></i>Experiência Profissional</h2>
+    <section class="info-box"><h2><i class="fas fa-briefcase icon"></i>Experiência Profissional</h2>
     <p>
       <strong>Auxiliar de Escritório – Casa Pio (1 ano e 6 meses)</strong><br>
       Atuação em cobrança, contato com clientes, envio de boletos, organização de metas e relatórios no Excel, acordos de pagamento, criação de planilhas, participação e liderança em grupos de competitividade.
+    </section>
     </p>
   </section>
-
   <section id="contato" class="animate">
-    <h2><i class="fas fa-envelope icon"></i>Contato</h2>
-    <form action="https://formsubmit.co/kailany123hot@gmail.com" method="POST">
-      <input type="text" name="name" placeholder="Seu nome" required>
-      <input type="email" name="email" placeholder="Seu email" required>
-      <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-    <p><strong>Email:</strong> kailany123hot@gmail.com</p>
-    <p><strong>Telefone:</strong> (85) 99966-6153</p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/kailanyguedes" target="_blank">github.com/kailanyguedes</a></p>
+    <h2><i class="fas fa-envelope icon"></i>Entre em Contato</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
+      
+      <!-- Coluna da esquerda: Informações -->
+      <div style="flex: 1; min-width: 250px;">
+        <section id="sobre" class="animate"> <h3>Informações de Contato</h3>
+        <p><i class="fas fa-envelope icon"></i> <strong>E-mail:</strong><br> kailany123hot@gmail.com</p>
+        <p><i class="fab fa-whatsapp icon"></i> <strong>WhatsApp:</strong><br> (85) 99966-6153</p>
+        <p><i class="fab fa-instagram icon"></i> <strong>Instagram:</strong><br> @_kailanyguedes</p>
+        <p><i class="fab fa-github icon"></i> <strong>GitHub:</strong><br> <a href="https://github.com/kailanyguedes" target="_blank" style="color: #00bfff;">github.com/kailanyguedes</a></p>
+        <p><i class="fab fa-linkedin icon"></i> <a href="https://www.linkedin.com/in/kailany-g-a68215220/" target="_blank">LinkedIn</a></p>
+      
+        <p><i class="fas fa-map-marker-alt icon"></i> <strong>Localização:</strong><br> Fortaleza - CE</p>
+      </section>
+      </div>
+  
+      <!-- Coluna da direita: Formulário -->
+      <div style="flex: 1; min-width: 250px;">
+        <h3>Envie uma mensagem</h3>
+        <form action="https://formsubmit.co/kailany123hot@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Digite seu nome" required>
+          <input type="email" name="email" placeholder="Digite seu e-mail" required>
+          <textarea name="message" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+          <button type="submit">
+            Enviar Mensagem <i class="fas fa-paper-plane" style="margin-left: 0.5rem;"></i>
+          </button>
+        </form>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #ccc;">
+          Todas as mensagens são recebidas diretamente no meu e-mail.
+        </p>
+      </div>
+  
+    </div>
   </section>
+  <section class="links-rapidos">
+    <h2>Links Rápidos</h2>
+    <p>Aqui está meu Linktree para acessar todos os meus perfis e projetos em um só lugar:</p>
+    <a href="https://linktr.ee/_kailanyguedes" target="_blank" class="btn-linktree">Acessar Linktree</a>
+    </div>
+  </section>
+  
+
 
   <footer>
     © 2025 Kailany Guedes de Sousa. Todos os direitos reservados.
@@ -233,6 +296,15 @@
     });
   </script>
   <link rel="stylesheet" href="style.css">
+  
+<!-- Biblioteca Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- Seu script -->
+<script src="js/typed-init.js"></script> <!-- ou o nome certo do arquivo -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="main.js"></script>
+</body>
 
 </body>
 

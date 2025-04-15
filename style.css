@@ -39,3 +39,161 @@
     }
   }
   
+  .links-rapidos {
+    background-color: #0a0a0a;
+    padding: 40px 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+  }
+  
+  .links-rapidos h2 {
+    color: #00bfff;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .links-rapidos p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-linktree {
+    background-color: #00bfff;
+    color: #000;
+    padding: 15px 30px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .btn-linktree:hover {
+    transform: scale(1.05);
+    background-color: #00bfff;
+  }
+  
+  .redes-sociais-extra {
+    margin-top: 30px;
+  }
+  
+  .redes-sociais-extra p {
+    margin: 10px 0;
+  }
+  
+  .redes-sociais-extra a {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  .redes-sociais-extra a:hover {
+    text-decoration: underline;
+  }
+  .caixa-tech {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-left: 3px solid #00bfff;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: white;
+    width: fit-content;
+    max-width: 600px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px auto;
+  }
+  
+  .icone {
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    color: #00bfff;
+    font-size: 20px;
+    background-color: #0c0c0c;
+    padding: 8px;
+    border-radius: 6px;
+  }
+  
+  .caixa-tech::before {
+    content: '"';
+    color: #888;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .caixa-tech::after {
+    content: '"';
+    color: #888;
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  .info-box {
+    border: 1px solid #00bfff; /* borda fininha verde neon */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 800px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+  }
+  
+  .info-box:hover {
+    animation: pulse 1s infinite;
+    box-shadow: 0 0 12px #00bfff;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.015);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .info-box h2 {
+    margin-top: 0;
+    color: #00bfff;
+  }
+  h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+  }
+  
+  body {
+    font-family: 'Fira Code', monospace;
+    color: #e0e0e0;
+    background-color: #121212; /* se quiser um fundo mais estilo dark mode */
+  }
+  .titulo-animado {
+    font-family: 'Fira Code', monospace;
+    font-size: 1.3rem;
+    color: #00bfff;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .nome-animado {
+    color: white;
+    animation: troca-cor 3s infinite ease-in-out;
+  }
+  
+  /* Animação que alterna entre branco e azul */
+  @keyframes troca-cor {
+    0% {
+      color: white;
+    }
+    50% {
+      color: #00aaff; /* Azul do seu site */
+    }
+    100% {
+      color: white;
+    }
+  }
